@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-image: url("BG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+form{
+    height:650px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position:relative;
+    border: 3px solid white;
+    border-radius: 35px;
+    z-index: 4;
+    border-color: white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+label{
+    color: aqua;
+    position: relative;
+    font-size: 25px;
+    left:35%;
+    top:20%;
+    z-index: 4;
+}
+.In{
+    position: relative;
+    font-size: 20px;
+    left:35%;
+    top:20%;
+    border-radius: 15px;
+    z-index: 4;
+}
+#Rg{
+    color: aqua;
+    position: relative;
+    left: 41%;
+    top: 80px;
+    z-index: 4;
+}
+#Log{
+    position: relative;
+    left: 35%;
+    top: 20%;
+    font-size: 25px;
+    width: 120px;
+    z-index: 4;
+    border-radius: 15px;
+    background-color: black;
+    color: aqua;
+}
+#Log:hover {
+    transition-delay: 400ms;
+    transition-duration: 1s;
+    background: white;
+    color: black;
+}
+p{
+    position: relative;
+    left: 35%;
+    top: 130px;
+    color: red;
+    font-size: 20px;
+}

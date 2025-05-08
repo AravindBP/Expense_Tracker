@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 40px;
+    background-color: black;
+    height: 70px;
+}
+#Rept{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#tab{
+    position: relative;
+    left:20%;
+    top:60px;
+    overflow-y: scroll;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    width: 60%;
+}
+.Header{
+    font-weight: bolder;
+    background-color: black;
+    color: aqua;
+}
+.Vals{
+    background-color: grey;
+    color: aqua;
+}
+#fillab{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 20%;
+}
+#filter{
+    position: relative;
+    font-size: 18px;
+    border-radius: 10px;
+    top: 40px;
+    left: 20%;
+}

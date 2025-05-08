@@ -1,0 +1,77 @@
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 40px;
+    background-color: black;
+    height: 70px;
+}
+#TranCon{
+    width: 40%;
+    /*border-width: 0px;*/
+}
+.Lbin{
+    position: relative;
+    left: 25%;
+    top:10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+#Amt{
+    position: relative;
+    top:12%;
+    left:25%;
+    width: 40%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#Cat{
+    position: relative;
+    top:12%;
+    left:25%;
+    width: 40%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#Dt{
+    position: relative;
+    top:12%;
+    left:25%;
+    width: 40%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#Desc{
+    position: relative;
+    top:12%;
+    left:25%;
+    width: 40%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#Md{
+    position: relative;
+    top:12%;
+    left:25%;
+    width: 40%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#Add{
+   position: relative;
+    top:12%;
+    left:25%; 
+    width: 40%;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: black;
+    color: aqua;
+}
+#Add:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 200ms;
+}

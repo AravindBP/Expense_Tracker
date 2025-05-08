@@ -1,0 +1,26 @@
+.con{
+    color: white;
+}
+#rabt{
+    color: white;
+    position: relative;
+    left:0%;
+    top: 0%;
+    font-size: 20px;
+}
+
+.AHd{
+    position: relative;
+    top:25px;
+}
+.Li{
+    position: relative;
+    top:30px;
+    left: 2%;
+    font-size: 20px;
+}
+#bat{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
