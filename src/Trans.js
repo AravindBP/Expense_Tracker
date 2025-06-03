@@ -24,7 +24,7 @@ const Trans = () => {
       const res = await fetch("http://localhost:5000/trans", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, Amt, Exp, Dt, Desc, Md }), // ✅ include username
+        body: JSON.stringify({ username, Amt, Exp, Dt, Desc, Md }),
       });
 
       const data = await res.json();
