@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Log from "./Log";
-import Reg from "./Reg"; // Import the Register component
+import Reg from "./Reg";
 import Home from "./Home";
 import About from "./About";
 import Trans from "./Trans";
